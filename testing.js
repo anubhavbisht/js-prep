@@ -75,3 +75,14 @@
 //     });
 //   });
 // }, Promise.resolve()); // Start with a resolved promise
+
+const promise =  new Promise((resolve,reject)=>{
+    resolve('Hi')
+})
+
+promise.then((data)=>{
+    console.log(data)
+})
+promise.then((x)=>{
+    console.log(x)
+})
