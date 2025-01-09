@@ -15,7 +15,7 @@ class MyPromise {
     try {
       callback(this.#sucessBind, this.#failureBind);
     } catch (e) {
-      this.#failure(e);
+      this.#failureBind(e);
     }
   }
   #success(value) {
