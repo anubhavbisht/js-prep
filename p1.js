@@ -1,6 +1,7 @@
 const promise1 = new Promise((resolve, reject) => {
   setTimeout(() => resolve("Resolves in 3 seconds"), 3000);
 });
+
 const promise2 = new Promise((resolve, reject) => {
   setTimeout(() => resolve("Resolves in 2 seconds"), 2000);
 });

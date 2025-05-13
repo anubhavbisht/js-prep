@@ -1,9 +1,11 @@
 const promise1 = new Promise((resolve, reject) => {
   setTimeout(() => resolve("Resolves promise 1 in 3 seconds"), 3000);
 });
+
 const promise2 = new Promise((resolve, reject) => {
   setTimeout(() => resolve("Resolves promise 2 in 2 seconds"), 2000);
 });
+
 const promise3 = new Promise((resolve, reject) => {
   setTimeout(() => reject("Rejects promise 3 in 1 seconds"), 1000);
 });
